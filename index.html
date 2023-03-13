@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     </head>
     <body>
-        <header class="flex-between fixed background-white ">
+        <header class="flex-between fixed background-white" id="shadow">
             <!-- Left Side -->
             <div class="flex-between one-third vertical-center">
                 <img src="./img/logo-small.png" alt="Logo">
@@ -19,7 +19,7 @@
                 <a href="#">
                     Funzioni
                 </a>
-                <a href="#">
+                <a href="#prices">
                     Piani e prezzi
                 </a>
             </div>
@@ -37,39 +37,41 @@
                     </a>
                 </div>
                 <div class="flex-end" id="header-button">
-                    <button class="background-blue">
+                    <button class="blue-button">
                         Inizia
                     </button>
                 </div>
             </div>
         </header>
 
-        <main class="background-yellow">
+        <main>
             <!-- Title section -->
             <section class="background-light-blue" id="fixed-space">
-                <h1>
-                    T
-                </h1>
-                <div class="flex-start">
-                    <!-- Left Side -->
-                    <div class="left-side background-green">
-                        <p>
-                            W
-                        </p>
-                        <button>
-                            W
-                        </button>
-                        <p>
-                            W
-                        </p>
+                <div id="center-title">
+                    <h1>
+                        Tutto ciò che ti serve per il lavoro, in un unico posto
+                    </h1>
+                    <div class="flex-start" id="max-height">
+                        <!-- Left Side -->
+                        <div class="left-side">
+                            <p>
+                                Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                            </p>
+                            <button class="blue-button">
+                                Inizia la tua prova gratuita
+                            </button>
+                            <p>
+                                Annulla in qualsiasi momento
+                            </p>
 
-                        <i class="fa-solid fa-arrow-down"></i>
+                            <a href="#prices" class="fa-solid fa-arrow-down" id="down-arrow"></a>
+                        </div>
+                        <img src="./img/jumbo.png" alt="First Photo" id="jumbo">
                     </div>
-                    <img src="" alt="First Photo" class="background-red">
                 </div>
             </section>
             <!-- Prices section -->
-            <section class="center top-spacing background-red">
+            <section class="center top-spacing background-red" id="prices">
                <h2>
                 T
                </h2>
