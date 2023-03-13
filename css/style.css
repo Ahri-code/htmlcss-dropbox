@@ -12,6 +12,9 @@
 .background-green {background-color: green;}
 .background-red {background-color: red;}
 .background-yellow {background-color: yellow;}
+.background-aqua {background-color: aqua;}
+.background-violet {background-color: violet;}
+.background-purple {background-color: purple;}
 
 .background-light-blue {
     background-color: #b4d0e7;
@@ -25,6 +28,10 @@
 
 .left-side {
     width: 35%;
+}
+
+.thirty-percent {
+    width: 30%;
 }
 
 /* Flexes */
@@ -45,6 +52,17 @@
     position: fixed;
 }
 
+/* General */
+
+.center {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.top-spacing {
+    margin-top: 7rem;
+}
+
 /* Header */
 
 header {
@@ -54,8 +72,13 @@ header {
 
 /* Main */
 
+/* Title section */
+
 #fixed-space {
     padding-top: 5rem;
     width: 65%;
     margin: 0 auto;
 }
+
+/* Prices section */
+
