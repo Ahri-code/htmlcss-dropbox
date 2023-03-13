@@ -28,6 +28,14 @@
     background-color: black;
 }
 
+.background-white {
+    background-color: white;
+}
+
+.background-blue {
+    background-color: #0061ff;
+}
+
 /* Dimensions */
 
 .one-third {
@@ -68,6 +76,16 @@
     justify-content: center;
 }
 
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
 /* Positons */
 
 .fixed {
@@ -93,7 +111,31 @@
 
 header {
     width: 100%;
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 1rem;
+    z-index: 99;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    border: 0;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+#non-button {
+    width: 80%;
+}
+
+#header-button {
+    width: 20%;
 }
 
 /* **Main** */
