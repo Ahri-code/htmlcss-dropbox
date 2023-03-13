@@ -7,3 +7,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Backgrounds */
+
+.background-green {background-color: green;}
+.background-red {background-color: red;}
+.background-yellow {background-color: yellow;}
+
+/* Dimensions */
+
+.one-third {
+    width: calc(100% / 3);
+}
+
+/* Flexes */
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Positons */
+
+.fixed {
+    position: fixed;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+
