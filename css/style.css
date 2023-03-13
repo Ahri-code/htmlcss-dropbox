@@ -13,10 +13,18 @@
 .background-red {background-color: red;}
 .background-yellow {background-color: yellow;}
 
+.background-light-blue {
+    background-color: #b4d0e7;
+}
+
 /* Dimensions */
 
 .one-third {
     width: calc(100% / 3);
+}
+
+.left-side {
+    width: 35%;
 }
 
 /* Flexes */
@@ -24,6 +32,11 @@
 .flex-between {
     display: flex;
     justify-content: space-between;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
 }
 
 /* Positons */
@@ -39,3 +52,10 @@ header {
     padding: 1rem 0.5rem;
 }
 
+/* Main */
+
+#fixed-space {
+    padding-top: 5rem;
+    width: 65%;
+    margin: 0 auto;
+}
