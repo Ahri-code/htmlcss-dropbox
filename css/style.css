@@ -20,6 +20,14 @@
     background-color: #b4d0e7;
 }
 
+.background-gray {
+    background-color: #f5f5f5;
+}
+
+.background-black {
+    background-color: black;
+}
+
 /* Dimensions */
 
 .one-third {
@@ -77,14 +85,18 @@
     margin-top: 7rem;
 }
 
-/* Header */
+.white-fonts {
+    color: white;
+}
+
+/* **Header** */
 
 header {
     width: 100%;
     padding: 1rem 0.5rem;
 }
 
-/* Main */
+/* **Main** */
 
 /* Title section */
 
@@ -101,3 +113,5 @@ header {
 /* Business section */
 
 /* FAQ section */
+
+/* **Footer** */
