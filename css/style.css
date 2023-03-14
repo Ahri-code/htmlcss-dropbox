@@ -7,6 +7,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a:visited {
+    color: blue;
+}
+
 /* Backgrounds */
 
 .background-green {background-color: green;}
@@ -91,7 +99,7 @@
 /* General */
 
 .center {
-    width: 55%;
+    max-width: 820px;
     margin: 0 auto;
 }
 
@@ -110,7 +118,11 @@
     background-color: #0061ff;
 }
 
-a {
+.three-rem-top {
+    margin-top: 3rem;
+}
+
+.black-link a {
     color: black;
     text-decoration: none;
 }
@@ -148,7 +160,7 @@ header a:hover {
 }
 
 #center-title {
-    width: 65%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -179,6 +191,50 @@ h1 {
 } */
 
 /* Prices section */
+
+#checkbox-space {
+    margin-left: 2em;
+    margin-bottom: 2.5em;
+}
+
+
+.plan-title {
+    padding: 0.5em;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+
+.plan-title span{
+    padding-left: 5px;
+}
+
+
+.plan-main {
+    border: 1px solid gray;
+    padding: 2em 1em;
+}
+
+.plan-main  p{
+    padding-top: 1em;
+}
+
+.plan-main  i{
+    padding-top: 1em;
+}
+
+.plan-main  button{
+    margin-top: 1em;
+}
+
+.plan-main  hr{
+    margin-top: 1em;
+    width: 25%;
+}
+
+.checkmark {
+    color: #7485ff;
+    padding-top: 1em;
+}
 
 /* Partner section */
 
