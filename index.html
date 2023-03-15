@@ -1,613 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dropbox</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    </head>
-    <body>
-        <header class="flex-between fixed background-white black-link" id="shadow">
-            <!-- Left Side -->
-            <div class="flex-between one-third vertical-center">
-                <img src="./img/logo-small.png" alt="Logo">
-                <a href="#">
-                    Perché Dropbox
-                </a>
-                <a href="#">
-                    Funzioni
-                </a>
-                <a href="#prices">
-                    Piani e prezzi
-                </a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropBox</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <header class="w-100per flex jc-between bg-white a-black fixed z-top-all" id="shadow">
+        <!-- Left side -->
+        <div class="w-33per p-1em flex jc-between ai-center">
+            <img src="./img/logo-small.png" alt="Logo">
+
+            <a href="">Perché DropBox</a>
+
+            <a href="">Funzioni</a>
+
+            <a href="">Piani e Prezzi</a>
+        </div>
+        <!-- Right side -->
+
+        <div class="w-33per p-1em flex jc-between ai-center">
+            <div class="flex jc-between w-80per">
+                <a href="">Supporto</a>
+
+                <a href="">Contatta l'ufficio vendite</a>
+
+                <a href="">Accedi</a>
             </div>
-            <!-- Right Side -->
-            <div class="one-third vertical-center flex-end">
-                <div class="flex-between" id="non-button">
-                    <a href="#">
-                        Supporto
-                    </a>
-                    <a href="#">
-                        Contatta l'ufficio vendite
-                    </a>
-                    <a href="#">
-                        Accedi
-                    </a>
-                </div>
-                <div class="flex-end" id="header-button">
-                    <button class="blue-button">
-                        Inizia
-                    </button>
+
+            <div class="p-0-1">
+                <button class="border-0 c-white bg-blue p-05-1">Inizia</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Title section -->
+        <section class="bg-light-blue a-black pt-5rem">
+            <div class="m-center max-w-1000">
+                <h1>
+                    Tutto ciò che ti serve per il lavoro, in un unico posto
+                </h1>
+
+                <div class="flex jc-center relative top-5rem">
+                    <!-- Left Side -->
+                    <div class="w-30per">
+                        <p class="pb-1_5em">
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <button class="border-0 c-white bg-blue p-05-1">
+                            Inizia la tua prova gratuita
+                        </button>
+                        <p class="pt-1_5em">
+                            Annulla in qualsiasi momento
+                        </p>
+
+                        <a href="#prices" class="fa-solid fa-arrow-down pt-1_5em pb-05em" id="arrow-down"></a>
+                    </div>
+                    <!-- Right side -->
+                    <img src="./img/jumbo.png" alt="Jumbo" class="w-70per">
                 </div>
             </div>
-        </header>
+        </section>
 
-        <main>
-            <!-- Title section -->
-            <section class="background-light-blue black-link" id="fixed-space">
-                <div id="center-title">
-                    <h1>
-                        Tutto ciò che ti serve per il lavoro, in un unico posto
-                    </h1>
-                    <div class="flex-start" id="max-height">
-                        <!-- Left Side -->
-                        <div class="left-side">
-                            <p>
-                                Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
-                            </p>
-                            <button class="blue-button">
-                                Inizia la tua prova gratuita
-                            </button>
-                            <p>
-                                Annulla in qualsiasi momento
-                            </p>
-
-                            <a href="#prices" class="fa-solid fa-arrow-down" id="down-arrow"></a>
-                        </div>
-                        <img src="./img/jumbo.png" alt="First Photo" id="jumbo">
-                    </div>
-                </div>
-            </section>
-            <!-- Prices section -->
-            <section class="center top-spacing" id="prices">
-               <h2>
-                Trova il piano business che fa per te
-               </h2>
-               <!-- Checkbox -->
-               <div class="three-rem-top">
-                <input type="radio" name="Month">
-                <span>
-                    Fatturazione mensile
-                </span>
-
-                <input type="radio" name="Year" id="checkbox-space">
-                <span>
-                    Fatturazione annuale
-                </span>
-               </div>
-               <!-- Option -->
-               <div class="flex-between flex-wrap">
-                <!-- Single -->
-                <div class="thirty-percent">
-                    <!-- Top -->
-                    <div class="plan-title flex-center">
-                        <i class="fa-solid fa-user"></i>
-                        <span>Singolo</span>
-                    </div>
-                    <!-- Main-part -->
-                    <div class="plan-main">
-                        <h4>
-                            Professional
-                        </h4>
-                        <p>
-                            <strong>€ 12.00</strong>
-                        </p>
-                        <p>
-                            /mese
-                        </p>
-
-                        <i class="fa-solid fa-user"></i>
-                        <span>1 utente</span>
-                        <br>
-
-                        <i class="fa-solid fa-folder"></i>
-                        <span>5 TB di spazio di archiviazione sicuro</span>
-                        <br>
-
-                        <i class="fa-solid fa-share-nodes"></i>
-                        <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
-                        <br>
-                        
-                        <button class="blue-button">
-                            Prova gratis per 30 giorni
-                        </button>
-
-                        <p>oppure 
-                            <a href="#">
-                                acquista ora
-                            </a>
-                        </p>
-
-                        <hr>
-
-                        <p>
-                            <strong>Punti salienti del piano</strong>
-                        </p>
-
-                         <span class="fa-solid fa-check checkmark"></span>
-                        <span>
-                            Invia file fino a 100GB con Dropbox Transfert
-                        </span>
-                        <br>
-                        <span class="fa-solid fa-check checkmark"></span>
-                        <span>
-                            Cartelle offline su dispositivi mobili
-                        </span>
-                    </div>
-                </div>
-                <!-- Team -->
-                <div class="thirty-percent">
-                    <!-- Top -->
-                    <div class="plan-title flex-center">
-                        <i class="fa-solid fa-user"></i>
-                        <span>Singolo</span>
-                    </div>
-                    <!-- Main-part -->
-                    <div class="plan-main">
-                        <h4>
-                            Professional
-                        </h4>
-                        <p>
-                            <strong>€ 12.00</strong>
-                        </p>
-                        <p>
-                            /mese
-                        </p>
-
-                        <i class="fa-solid fa-user"></i>
-                        <span>1 utente</span>
-                        <br>
-
-                        <i class="fa-solid fa-folder"></i>
-                        <span>5 TB di spazio di archiviazione sicuro</span>
-                        <br>
-
-                        <i class="fa-solid fa-share-nodes"></i>
-                        <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
-                        <br>
-                        
-                        <button class="blue-button">
-                            Prova gratis per 30 giorni
-                        </button>
-
-                        <p>oppure 
-                            <a href="#">
-                                acquista ora
-                            </a>
-                        </p>
-
-                        <hr>
-
-                        <p>
-                            <strong>Punti salienti del piano</strong>
-                        </p>
-
-                         <span class="fa-solid fa-check checkmark"></span>
-                        <span>
-                            Invia file fino a 100GB con Dropbox Transfert
-                        </span>
-                        <br>
-                        <span class="fa-solid fa-check checkmark"></span>
-                        <span>
-                            Cartelle offline su dispositivi mobili
-                        </span>
-                    </div>
-                </div>
-                <!-- Busines -->
-                <div class="thirty-percent">
-                    <!-- Top -->
-                    <div class="plan-title flex-center">
-                        <i class="fa-solid fa-user"></i>
-                        <span>Singolo</span>
-                    </div>
-                    <!-- Main-part -->
-                    <div class="plan-main">
-                        <h4>
-                            Professional
-                        </h4>
-                        <p>
-                            <strong>€ 12.00</strong>
-                        </p>
-                        <p>
-                            /mese
-                        </p>
-
-                        <i class="fa-solid fa-user"></i>
-                        <span>1 utente</span>
-                        <br>
-
-                        <i class="fa-solid fa-folder"></i>
-                        <span>5 TB di spazio di archiviazione sicuro</span>
-                        <br>
-
-                        <i class="fa-solid fa-share-nodes"></i>
-                        <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
-                        <br>
-                        
-                        <button class="blue-button">
-                            Prova gratis per 30 giorni
-                        </button>
-
-                        <p>oppure 
-                            <a href="#">
-                                acquista ora
-                            </a>
-                        </p>
-
-                        <hr>
-
-                        <p>
-                            <strong>Punti salienti del piano</strong>
-                        </p>
-
-                         <span class="fa-solid fa-check checkmark"></span>
-                        <span>
-                            Invia file fino a 100GB con Dropbox Transfert
-                        </span>
-                        <br>
-                        <span class="fa-solid fa-check checkmark"></span>
-                        <span>
-                            Cartelle offline su dispositivi mobili
-                        </span>
-                    </div>
-                </div>
-               <!-- Bottom -->
-               <div class="background-aqua">
-                <!-- Top -->
-                <div>
-                    <i class="fa-solid fa-building"></i>
-                    <span>S</span>
-                </div>
-                <div class="flex-start">
-                    <!-- Left -->
-                    <div class="background-violet">
-                        <h4>
-                            Enterprise
-                        </h4>
-                        <p>
-                            <Strong>M</Strong>
-                        </p>
-
-                        <p>
-                            M
-                        </p>
-                    </div>
-                    <!-- Right -->
-                    <div class="background-purple">
-                        <Button>
-                            M
-                        </Button>
-                    </div>
-                </div>
-               </div>
-            </section>
-            <!-- Partner section -->
-            <section class="center top-spacing background-red">
-                <div class="flex-start">
-                    <img src="" alt="Second Photo" class="background-violet">
-
-                    <div class="background-purple">
-                        <h3>
-                            T
-                        </h3>
-                        <p>
-                            B
-                        </p>
-                        <button>B</button>
-                    </div>
-                </div>
-            </section>
-            <!-- Dropbox Business -->
-            <section class="top-spacing background-red">
-                <div class="center">
-                    <h2>
-                        T
-                    </h2>
-
-                    <div class="flex-between flex-wrap background-aqua">
-                        <div class="thirty-percent background-violet">
-                            <img src="" alt="Folder">
-                            <h3>
-                                T
-                            </h3>
-                            <p>
-                                P
-                            </p>
-                        </div>
-
-                        <div class="thirty-percent background-violet">
-                            <img src="" alt="Transfer">
-                            <h3>
-                                T
-                            </h3>
-                            <p>
-                                P
-                            </p>
-                        </div>
-
-                        <div class="thirty-percent background-violet">
-                            <img src="" alt="Idea">
-                            <h3>
-                                T
-                            </h3>
-                            <p>
-                                P
-                            </p>
-                        </div>
-
-                        <div class="thirty-percent background-violet">
-                            <img src="" alt="Social">
-                            <h3>
-                                T
-                            </h3>
-                            <p>
-                                P
-                            </p>
-                        </div>
-
-                        <div class="thirty-percent background-violet">
-                            <img src="" alt="App">
-                            <h3>
-                                T
-                            </h3>
-                            <p>
-                                P
-                            </p>
-                        </div>
-
-                        <div class="thirty-percent background-violet">
-                            <img src="" alt="Vault">
-                            <h3>
-                                T
-                            </h3>
-                            <p>
-                                P
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="top-spacing background-aqua">
-                        <h2>T</h2>
-
-                        <a href="#">A</a>
-                    </div>
-                </div>
-
-                <div class="flex-center">
-                    <!-- Right -->
-                    <!-- **HEIGHT** -->
-                    <div class="one-third flex-wrap">
-                        <div class="half-widith  background-purple">
-                            <img src="" alt="Designit">
-                        </div>
-                        
-                        <div class="half-widith  background-violet">
-                            <img src="" alt="ASU">
-                        </div>
-
-                        <div class="half-widith  background-violet">
-                            <img src="" alt="UF">
-                        </div>
-
-                        <div class="half-widith  background-purple">
-                            <img src="" alt="Topps">
-                        </div>
-                    </div>
-                    <!-- Center -->
-                    <div class="background-gray">
-                        <!-- **OVERFLOW** -->
-                        <img src="" alt="Designit_Black">
-                        <hr>
-                        <p>
-                            O
-                        </p>
-                        <p>
-                            O
-                        </p>
-                    </div>
-                    <!-- Left -->
-                    <div class="one-third flex-wrap">
-                        <div class="half-widith  background-purple">
-                            <img src="" alt="WBR">
-                        </div>
-                        
-                        <div class="half-widith  background-violet">
-                            <img src="" alt="Hearst">
-                        </div>
-
-                        <div class="half-widith  background-violet">
-                            <img src="" alt="Lonely_Planet">
-                        </div>
-
-                        <div class="half-widith  background-purple">
-                            <img src="" alt="Clear_Channel">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="center flex-between background-light-blue">
-                    <div>
-                        <h2>
-                            T
-                        </h2>
-                    </div>
-
-                    <div>
-                        <Button>
-                            I
-                        </Button>
-                    </div>
-                </div>
-            </section>
-            <!-- FAQ -->
-            <section class="center top-spacing background-red">
+        <!-- Prices section -->
+        <section class="pt-7rem m-center max-w-850">
+            <!-- Title and Checkbox -->
+            <div>
                 <h2>
-                    T
+                    Trova il piano business che fa per te
                 </h2>
+                <!-- Checkbox -->
+                <div class="pt-3em">
+                    <input type="radio" name="Month">
+                    <span>
+                        Fatturazione mensile
+                    </span>
 
-                <hr>
-                <!-- First Question -->
-                <div class="flex-between">
-                    <p>
-                        Q
-                    </p>
-
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                
-                <hr>
-                <!-- Second Question -->
-                <div class="flex-between">
-                    <p>
-                        Q
-                    </p>
-
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-
-                <hr>
-                <!-- Third Question -->
-                <div class="flex-between">
-                    <p>
-                        Q
-                    </p>
-
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <hr>
-            </section>
-        </main>
-
-        <footer class="background-black white-fonts">
-            <div class="center top-spacing">
-                <!-- Useful Links -->
-                <div class="flex-between">
-                    <!-- Dropbox -->
-                    <div>
-                        <h3>
-                            T
-                        </h3>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                    </div>
-                    <!-- Products -->
-                    <div>
-                        <h3>
-                            T
-                        </h3>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                    </div>
-                    <!-- Business -->
-                    <div>
-                        <h3>
-                            T
-                        </h3>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                    </div>
-                    <!-- Support -->
-                    <div>
-                        <h3>
-                            T
-                        </h3>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                    </div>
-                    <!-- Community -->
-                    <div>
-                        <h3>
-                            T
-                        </h3>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                        <p>
-                            D
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <!-- Languages -->
-                <div>
-                    <i class="fa-solid fa-earth-europe"></i>
-                    <span>S</span>
-                    <i class="fa-solid fa-caret-up"></i>
+                    <input type="radio" name="Year" class="ml-2em">
+                    <span>
+                        Fatturazione annuale
+                    </span>
                 </div>
             </div>
-        </footer>
-    </body>
+            <!-- Option -->
+            <div class="flex fw-wrap">
+                <div class="flex jc-between">
+                    <!-- Single -->
+                    <div class="w-30per pt-2em">
+                        <!-- Top part -->
+                        <div class="gray-border none-bottom flex jc-center p-05-0">
+                            <i class="fa-solid fa-user"></i>
+                            <p class="pl-5px">Singolo</p>
+                        </div>
+                        <!-- Main part -->
+                        <div class="gray-border pt-1_5em pb-2em pl-1em pr-1em">
+                            <!-- Name and Price -->
+                            <h4>
+                                Professional
+                            </h4>
+                            <p class="pt-1em">
+                                <strong>€ 12.00</strong>
+                            </p>
+                            <p class="pt-05em">
+                                /mese
+                            </p>
+
+                            <!-- Included -->
+                            <div class="pt-2_5em">
+                                <div class="flex jc-start">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="pl-5px">1 utente</p>
+                                </div>
+                                <div class="flex jc-start pt-1em">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <p class="pl-5px">5 TB di spazio di archiviazione sicuro</p>
+                                </div>
+                                <div class="flex jc-start pt-1em pb-2_5em">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <p class="pl-5px">Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                </div>
+                            </div>
+
+                            <!-- Buttom -->
+                            <button class="border-0 c-white bg-blue pt-05em pb-05em flex jc-center w-100per">
+                                Prova gratis per 30 giorni
+                            </button>
+                            <p class="pt-1_5em pb-2em">oppure 
+                                <a href="#">
+                                    acquista ora
+                                </a>
+                            </p>
+
+                            <hr class="w-20per">
+
+                            <!-- Important -->
+
+                            <p class="pt-2_5em pb-1_5em">
+                                <strong>Punti salienti del piano</strong>
+                            </p>
+                            <Ul>
+                                <li class="pb-1em flex jc-start">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Invia file fino a 100GB con Dropbox Transfert
+                                    </span>
+                                </li>
+                                <li class="flex jc-start">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Cartelle offline su dispositivi mobili
+                                    </span>
+                                </li>
+                            </Ul>
+
+                        </div>
+                    </div>
+
+                    <!-- Team -->
+                    <div class="w-30per pt-2em">
+                        <!-- Top part -->
+                        <div class="gray-border none-bottom flex jc-center p-05-0">
+                            <i class="fa-solid fa-users"></i>
+                            <p class="pl-5px">Team</p>
+                        </div>
+                        <!-- Main part -->
+                        <div class="gray-border pt-1_5em pb-2em pl-1em pr-1em">
+                            <!-- Name and Price -->
+                            <h4>
+                                Advanced
+                            </h4>
+                            <p class="pt-1em">
+                                <strong>€ 18.00</strong>
+                            </p>
+                            <p class="pt-05em">
+                                /utente/mese
+                            </p>
+
+                            <!-- Included -->
+                            <div class="pt-2_5em">
+                                <div class="flex jc-start">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="pl-5px">3 o più utente</p>
+                                </div>
+                                <div class="flex jc-start pt-1em">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <p class="pl-5px">Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                </div>
+                                <div class="flex jc-start pt-1em pb-2_5em">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <p class="pl-5px">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
+                                </div>
+                            </div>
+
+                            <!-- Buttom -->
+                            <button class="border-0 c-white bg-blue pt-05em pb-05em flex jc-center w-100per">
+                                Prova gratis per 30 giorni
+                            </button>
+                            <p class="pt-1_5em pb-2em">oppure 
+                                <a href="#">
+                                    acquista ora
+                                </a>
+                            </p>
+
+                            <hr class="w-20per">
+
+                            <!-- Important -->
+
+                            <p class="pt-2_5em pb-1_5em">
+                                <strong>Punti salienti del piano</strong>
+                            </p>
+                            <Ul>
+                                <li class="pb-1em flex jc-start pb-1_5em">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Nessun limite di spazio per i file
+                                    </span>
+                                </li>
+                                <li class="flex jc-start pb-1_5em">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Cartelle offline su dispositivi mobili
+                                    </span>
+                                </li>
+                                <li class="flex jc-start pb-1_5em">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Risparmia fino al 50% rispetto alle iscrizioni singole
+                                    </span>
+                                </li>
+                                <li class="flex jc-start pb-1_5em">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Possibilità di inserire nuovi membri del team
+                                    </span>
+                                </li>
+                                <li class="flex jc-start pb-1_5em">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Gestione dei permessi in base al ruolo
+                                    </span>
+                                </li>
+                            </Ul>
+                        </div>
+                    </div>
+
+                    <!-- Azienda -->
+                    <div class="w-30per pt-2em">
+                        <!-- Top part -->
+                        <div class="gray-border none-bottom flex jc-center p-05-0">
+                            <i class="fa-solid fa-building"></i>
+                            <p class="pl-5px">Azienda</p>
+                        </div>
+                        <!-- Main part -->
+                        <div class="gray-border pt-1_5em pb-2em pl-1em pr-1em">
+                            <!-- Name and Price -->
+                            <h4>
+                                Professional
+                            </h4>
+                            <p class="pt-1em">
+                                <strong>€ 12.00</strong>
+                            </p>
+                            <p class="pt-05em">
+                                /mese
+                            </p>
+
+                            <!-- Included -->
+                            <div class="pt-2_5em">
+                                <div class="flex jc-start">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="pl-5px">1 utente</p>
+                                </div>
+                                <div class="flex jc-start pt-1em">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <p class="pl-5px">5 TB di spazio di archiviazione sicuro</p>
+                                </div>
+                                <div class="flex jc-start pt-1em pb-2_5em">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <p class="pl-5px">Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                </div>
+                            </div>
+
+                            <!-- Buttom -->
+                            <button class="border-0 c-white bg-blue pt-05em pb-05em flex jc-center w-100per">
+                                Prova gratis per 30 giorni
+                            </button>
+                            <p class="pt-1_5em pb-2em">oppure 
+                                <a href="#">
+                                    acquista ora
+                                </a>
+                            </p>
+
+                            <hr class="w-20per">
+
+                            <!-- Important -->
+
+                            <p class="pt-2_5em pb-1_5em">
+                                <strong>Punti salienti del piano</strong>
+                            </p>
+                            <Ul>
+                                <li class="pb-1em flex jc-start">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Invia file fino a 100GB con Dropbox Transfert
+                                    </span>
+                                </li>
+                                <li class="pb-1em flex jc-start">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Invia file fino a 100GB con Dropbox Transfert
+                                    </span>
+                                </li>
+                                <li class="flex jc-start">
+                                    <span class="fa-solid fa-check checkmark blue-thick"></span>
+                                    <span class="pl-5px">
+                                        Cartelle offline su dispositivi mobili
+                                    </span>
+                                </li>
+                            </Ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team En -->
+                <div class="w-100per pt-2em">
+                    <!-- Top part -->
+                    <div class="gray-border none-bottom flex jc-center p-05-0">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="pl-5px">Team</p>
+                    </div>
+                    <!-- Main part -->
+                    <div class="gray-border pt-1_5em pb-2em pl-1em pr-1em flex jc-between">
+                        <!-- Name and Price -->
+                        <div>
+                            <h4>
+                                Advanced
+                            </h4>
+                            <p class="pt-1em">
+                                <strong>Contatta l'ufficio vendite per i prezzi</strong>
+                            </p>
+                            <p class="pt-2_5em">
+                                Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala
+                            </p>
+                        </div>
+                        <div class="w-30per">
+                            <button class="border-0 c-white bg-blue pt-05em pb-05em flex jc-center w-100per">
+                                Contatta l'ufficio vendite
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>    
+</body>
 </html>
