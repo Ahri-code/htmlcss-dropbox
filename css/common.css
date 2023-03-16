@@ -39,6 +39,8 @@ a:visited {color: blue;}
 
 /* Padding-bottom */
 
+.pb-5rem {padding-bottom: 5rem;}
+
 .pb-2_5em {padding-bottom: 2.5em;}
 
 .pb-2em {padding-bottom: 2em;}
