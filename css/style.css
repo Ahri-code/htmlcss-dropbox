@@ -38,3 +38,11 @@ h2 {font-size: 36px;}
 h4 {font-size: 24px;}
 
 .blue-thick {color: blue;}
+
+/* Business */
+
+.w-30vw {width: 30vw;}
+
+.w-adapt {width: calc(100% - 60vw);}
+
+.h-adapt {height: calc(30vw / 2);}
