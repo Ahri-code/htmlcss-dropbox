@@ -83,9 +83,13 @@ a:visited {color: blue;}
 
 .w-33per {width: calc(100% / 3);}
 
+.w-35per {width: 35%;}
+
 .w-40per {width: 40%;}
 
 .w-50per {width: 50%;}
+
+.w-60per {width: 60%;}
 
 .w-70per {width: 70%;}
 
