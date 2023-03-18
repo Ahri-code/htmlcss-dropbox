@@ -6,13 +6,28 @@
 
 .none-bottom {border-bottom: none;}
 
+.green-border {border: 15px solid #d1e9cd;}
+
 /* Background */
 
 .bg-light-blue {background-color: #b4d0e7;}
+.bg-light-green {background-color: #a2d39b;}
+.bg-bordeaux {background-color: #61082b;}
+.bg-sky-blue {background-color: #0093ce;}
+.bg-red {background-color: #ff1c1c;}
+.bg-red-2 {background-color: #d5001f;}
+.bg-blue {background-color: #0d2481;}
+.bg-yellow {background-color: #ffd830;}
 
 /* Spacing */
 
 .pl-5px {padding-left: 5px;}
+
+/* Filter */
+
+.f-invert {
+    filter: invert(100%);
+}
 
 /****** Header ******/
 
@@ -46,3 +61,8 @@ h4 {font-size: 24px;}
 .w-adapt {width: calc(100% - 60vw);}
 
 .h-adapt {height: calc(30vw / 2);}
+
+.h2-color {color: #61082b;}
+
+/* FAQ */
+
