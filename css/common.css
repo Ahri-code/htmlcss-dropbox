@@ -67,11 +67,15 @@ a:visited {color: blue;}
 
 .p-05-0 {padding: 0.5em 0;}
 
+.p-1-0 {padding: 1em 0;}
+
 /* Margin */
 
 .m-center {margin: 0 auto;}
 
 .ml-2em {margin-left: 2em}
+
+.mb-5rem {margin-bottom: 5rem;}
 
 /* Border */
 
