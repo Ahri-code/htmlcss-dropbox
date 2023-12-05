@@ -67,7 +67,7 @@ a:visited {color: blue;}
 
 .p-05-0 {padding: 0.5em 0;}
 
-.p-1-0 {padding: 1em 0;}
+.p-1_5-0 {padding: 1.5em 0;}
 
 /* Margin */
 
@@ -76,6 +76,8 @@ a:visited {color: blue;}
 .ml-2em {margin-left: 2em}
 
 .mb-5rem {margin-bottom: 5rem;}
+
+.mt-2em {margin-top: 2em;}
 
 /* Border */
 
